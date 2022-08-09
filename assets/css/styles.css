@@ -210,6 +210,12 @@ h1 {
     outline: none;
 }
 
+.search input[type="search"]::placeholder{
+    font-weight: bold;
+    color:black;
+    opacity: 1;
+}
+
 @media all and (min-width: 768px) {
     .button-text {
         color: white;
